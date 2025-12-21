@@ -1,5 +1,5 @@
 import { ShieldCheck, ArrowRight } from 'lucide-react';
-import modernOffice from "../../assets/modern-office.png";
+import modernOffice from '../../assets/images/modern-office.png';
 
 const features = [
     {

@@ -1,8 +1,9 @@
 import { FileText, Building, CreditCard, Users, Landmark, FileCheck, ArrowRight } from 'lucide-react';
-import businessTower from "../../assets/business-tower.png";
-import modernOffice from "../../assets/modern-office.png";
-import visaConsultation from "../../assets/visa-consultation.png";
-import bankingFinance from "../../assets/banking-finance.png";
+
+import businessTower from '../../assets/images/business-tower.png';
+import modernOffice from '../../assets/images/modern-office.png';
+import visaConsultation from '../../assets/images/visa-consultation.png';
+import bankingFinance from '../../assets/images/banking-finance.png';
 
 const services = [
     {
