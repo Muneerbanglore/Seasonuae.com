@@ -10,7 +10,7 @@ const Hero = () => {
                 <img
                     src={dubaiSkyline} // Ensure this image path is correct
                     alt="Dubai Skyline"
-                    className="w-full h-full object-cover object-center"
+                    className="w-screen  h-screen object-cover object-center"
                 />
                 {/* Gradient: Heavy on mobile for readability, fading to right on desktop */}
                 <div className="absolute inset-0 bg-gradient-to-b lg:bg-gradient-to-r from-teal-950/95 via-teal-900/90 to-teal-800/60 mix-blend-multiply lg:mix-blend-normal"></div>
