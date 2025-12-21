@@ -1,4 +1,5 @@
 import { ShieldCheck, ArrowRight } from 'lucide-react';
+import modernOffice from "../../assets/modern-office.png";
 
 const features = [
     {
@@ -63,7 +64,7 @@ const WhyChooseUs = () => {
                     <div className="relative">
                         <div className="relative rounded-3xl overflow-hidden shadow-2xl h-[600px] w-full">
                             <img
-                                src="/images/modern-office.png"
+                                src={modernOffice}
                                 alt="Season UAE Office"
                                 className="w-full h-full object-cover"
                             />

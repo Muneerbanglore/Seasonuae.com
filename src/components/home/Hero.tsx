@@ -1,14 +1,14 @@
-
 import ContactForm from '../common/ContactForm'; // Assuming this path exists
+import dubaiSkyline from "../../assets/dubai-skyline.png";
 
 const Hero = () => {
     return (
-        <div className="relative bg-teal-900 min-h-screen lg:min-h-[700px] flex items-center overflow-hidden font-sans">
+        <section className="relative bg-teal-900 text-white py-20 lg:py-32 overflow-hidden font-sans">
 
             {/* Background Image with Rich Gradient Overlay */}
-            <div className="absolute inset-0 z-0">
+            <div className="absolute inset-0 z-0 opacity-20">
                 <img
-                    src="/dubai-skyline.png" // Ensure this image path is correct
+                    src={dubaiSkyline} // Ensure this image path is correct
                     alt="Dubai Skyline"
                     className="w-full h-full object-cover object-center"
                 />
@@ -72,7 +72,7 @@ const Hero = () => {
 
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 

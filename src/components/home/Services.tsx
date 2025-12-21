@@ -1,41 +1,45 @@
 import { FileText, Building, CreditCard, Users, Landmark, FileCheck, ArrowRight } from 'lucide-react';
+import businessTower from "../../assets/business-tower.png";
+import modernOffice from "../../assets/modern-office.png";
+import visaConsultation from "../../assets/visa-consultation.png";
+import bankingFinance from "../../assets/banking-finance.png";
 
 const services = [
     {
         title: "Mainland Formation",
         desc: "Direct access to local and international markets with 100% ownership options.",
         icon: Building,
-        image: "/images/business-tower.png"
+        image: businessTower
     },
     {
         title: "Free Zone Setup",
         desc: "Enjoy 100% foreign ownership, tax exemptions, and simplified setup procedures.",
         icon: Landmark,
-        image: "/images/modern-office.png"
+        image: modernOffice
     },
     {
         title: "Visa Services",
         desc: "Seamless visa processing for investors, employees, and family sponsorship.",
         icon: Users,
-        image: "/images/visa-consultation.png"
+        image: visaConsultation
     },
     {
         title: "Bank Account",
         desc: "Expert assistance in opening corporate and personal bank accounts.",
         icon: CreditCard,
-        image: "/images/banking-finance.png"
+        image: bankingFinance
     },
     {
         title: "PRO Services",
         desc: "Efficient handling of government documents, clearances, and approvals.",
         icon: FileCheck,
-        image: "/images/business-tower.png"
+        image: businessTower
     },
     {
         title: "Legal Translation",
         desc: "Accurate and certified translation services for all official documents.",
         icon: FileText,
-        image: "/images/visa-consultation.png"
+        image: visaConsultation
     }
 ];
 
