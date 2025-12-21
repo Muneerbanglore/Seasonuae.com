@@ -6,7 +6,7 @@ import Contact from './pages/Contact';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Seasonuae.com">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
