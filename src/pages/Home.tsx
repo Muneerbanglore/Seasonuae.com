@@ -4,11 +4,13 @@ import Services from '../components/home/Services';
 import WhyChooseUs from '../components/home/WhyChooseUs';
 import Process from '../components/home/Process';
 import CallToAction from '../components/home/CallToAction';
+import GoogleReviews from '../components/common/GoogleReviews';
 
 const Home = () => {
     return (
         <div className="font-sans antialiased">
             <Hero />
+            <GoogleReviews />
 
             {/* Trust and Social Proof - Immediate impact after Hero */}
             <Stats />

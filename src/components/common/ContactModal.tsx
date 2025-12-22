@@ -43,8 +43,8 @@ const ContactModal = ({ isOpen, onClose }: ContactModalProps) => {
                                     <Phone className="w-5 h-5" />
                                 </div>
                                 <div>
-                                    <p className="text-xs font-semibold text-slate-400 uppercase tracking-wider">Call Office</p>
-                                    <p className="font-bold text-slate-800">+971 4 565 0900</p>
+                                    <p className="text-xs font-semibold text-slate-400 uppercase tracking-wider">Land line</p>
+                                    <p className="font-bold text-slate-800">+971 45650900</p>
                                 </div>
                             </a>
 

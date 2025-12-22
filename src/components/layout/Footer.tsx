@@ -23,12 +23,18 @@ const Footer = () => {
                                 <span>Business Center, Dubai, UAE</span>
                             </li>
                             <li className="flex items-center gap-2">
+                                <span>Land line</span>
                                 <Phone className="h-4 w-4 text-teal-500" />
-                                <span>+971 7 204 1111</span>
+                                <span>+971 45650900</span>
+                            </li>
+                             <li className="flex items-center gap-2">
+                                <span>Whatsapp</span>
+                                <Phone className="h-4 w-4 text-teal-500" />
+                                <span>+971 567652943</span>
                             </li>
                             <li className="flex items-center gap-2">
                                 <Mail className="h-4 w-4 text-teal-500" />
-                                <span>info@seasonuae.com</span>
+                                <span>Admin@seasonuae.com</span>
                             </li>
                         </ul>
                     </div>
