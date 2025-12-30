@@ -28,8 +28,12 @@ export default function GoogleReviews() {
   useEffect(() => {
     async function fetchReviews() {
       try {
+        // 1. Target URL (SerpApi)
         const targetUrl = `https://serpapi.com/search.json?engine=google_maps_reviews&data_id=${DATA_ID}&api_key=${API_KEY}&hl=en&sort_by=newestFirst`;
-        const proxyUrl = `https://api.allorigins.win/raw?url=${encodeURIComponent(targetUrl)}`;
+        
+        // 2. PROXY SWITCH: Using 'corsproxy.io' instead of 'allorigins'
+        // This is often more reliable for live domains.
+        const proxyUrl = `https://corsproxy.io/?${encodeURIComponent(targetUrl)}`;
         
         const response = await axios.get(proxyUrl);
         const apiData = response.data;
@@ -50,27 +54,27 @@ export default function GoogleReviews() {
 
   return (
     // 1. COMPONENT BACKGROUND: Dark Teal
-    <div className="bg-teal-950 py-16 px-4 font-sans">
+    <div className="bg-teal-900 py-16 px-4 font-sans">
       <div className="max-w-7xl mx-auto">
         
         {/* --- HEADER --- */}
         <div className="flex flex-col md:flex-row justify-between items-center mb-12 gap-6">
           <div className="text-center md:text-left">
             {/* Header Text: White */}
-            <h2 className="text-4xl font-semibold font-raleway text-white mb-3 tracking-tight">
+            <h2 className="text-4xl font-extrabold text-white mb-3 tracking-tight">
               What Our Clients Say
             </h2>
             
             <div className="flex items-center gap-3 justify-center md:justify-start">
               <div className="bg-white px-3 py-1 rounded-full shadow-sm flex items-center gap-2">
-                <FaGoogle className="text-blue-500" />
-                <span className="font-bold text-yellow-900">5.0</span>
+                <FaGoogle className="text-teal-900" />
+                <span className="font-bold text-teal-900">5.0</span>
               </div>
               <div className="flex text-yellow-400 text-lg">
                 {[...Array(5)].map((_, i) => <FaStar key={i} />)}
               </div>
               <span className="text-teal-100 font-medium text-sm">
-                Based on Google Reviews
+                Based on {reviews.length || "Google"} Reviews
               </span>
             </div>
           </div>
@@ -148,7 +152,7 @@ export default function GoogleReviews() {
               );
             })
           ) : (
-            // --- LOADING SKELETON (Adapted for Teal Background) ---
+            // --- LOADING SKELETON ---
             [1, 2, 3, 4].map((n) => (
               <div key={n} className="bg-white/10 backdrop-blur-sm p-6 rounded-2xl border border-teal-800 h-64 animate-pulse">
                 <div className="flex gap-4 mb-4">
