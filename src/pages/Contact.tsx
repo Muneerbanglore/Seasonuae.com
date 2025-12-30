@@ -21,7 +21,7 @@ const Contact = () => {
                                 </div>
                                 <div>
                                     <h3 className="font-semibold text-lg mb-1">Our Location</h3>
-                                    <p className="text-teal-100">123 Business Bay,<br />Sheikh Zayed Road,<br />Dubai, UAE</p>
+                                    <p className="text-teal-100">tower 7th floor office no 705 <br/> Al Nahda St - Al Nahda First - Al Qusais 1 - Dubai - United Arab Emirates</p>
                                 </div>
                             </div>
 
@@ -31,7 +31,7 @@ const Contact = () => {
                                 </div>
                                 <div>
                                     <h3 className="font-semibold text-lg mb-1">Phone Number</h3>
-                                    <p className="text-teal-100">+971 7 204 1111</p>
+                                    <p className="text-teal-100">+971567652943</p>
                                     <p className="text-teal-100 text-sm mt-1">Mon-Fri from 9am to 6pm</p>
                                 </div>
                             </div>
@@ -42,7 +42,7 @@ const Contact = () => {
                                 </div>
                                 <div>
                                     <h3 className="font-semibold text-lg mb-1">Email Address</h3>
-                                    <p className="text-teal-100">info@seasonuae.com</p>
+                                    <p className="text-teal-100">admin@seasonuae.com</p>
                                 </div>
                             </div>
                         </div>

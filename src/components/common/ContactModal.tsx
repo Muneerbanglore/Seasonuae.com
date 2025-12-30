@@ -87,7 +87,7 @@ const ContactModal = ({ isOpen, onClose }: ContactModalProps) => {
                     </button>
 
                     <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d231268.0336208535!2d55.127815!3d25.07628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43496ad9c645%3A0xbde66e5084295162!2sDubai%20-%20United%20Arab%20Emirates!5e0!3m2!1sen!2sae!4v1650000000000!5m2!1sen!2sae"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3607.483372255315!2d55.360344947418874!3d25.287958970591337!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5ddbcdd9a01d%3A0xdfd3d38ff99ec4c1!2sSeasons!5e0!3m2!1sen!2sin!4v1767098658376!5m2!1sen!2sin"
                         className="absolute inset-0 w-full h-full"
                         style={{ border: 0 }}
                         allowFullScreen

@@ -60,7 +60,7 @@ const WhyChooseUs = () => {
                         </div>
                     </div>
 
-                    {/* Right Column: Visuals */}
+
                     <div className="relative">
                         <div className="relative rounded-3xl overflow-hidden shadow-2xl h-[600px] w-full">
                             <img
@@ -70,7 +70,6 @@ const WhyChooseUs = () => {
                             />
                             <div className="absolute inset-0 bg-gradient-to-t from-teal-900/60 to-transparent"></div>
 
-                            {/* Floating Card */}
                             <div className="absolute bottom-8 left-8 right-8 bg-white/10 backdrop-blur-xl border border-white/20 p-6 rounded-2xl text-white">
                                 <div className="flex items-center gap-4 mb-4">
                                     <div className="w-12 h-12 bg-teal-500 rounded-full flex items-center justify-center">
@@ -84,7 +83,6 @@ const WhyChooseUs = () => {
                             </div>
                         </div>
 
-                        {/* Decorative elements */}
                         <div className="absolute -z-10 top-10 -right-10 w-full h-full border-2 border-teal-200/50 rounded-3xl"></div>
                     </div>
 
