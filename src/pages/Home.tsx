@@ -1,5 +1,6 @@
 import Hero from '../components/home/Hero';
 import Stats from '../components/home/Stats';
+import TourPackages from '../components/home/TourPackages';
 import Services from '../components/home/Services';
 import WhyChooseUs from '../components/home/WhyChooseUs';
 import Process from '../components/home/Process';
@@ -14,6 +15,9 @@ const Home = () => {
 
             {/* Trust and Social Proof - Immediate impact after Hero */}
             <Stats />
+
+            {/* Popular Packages */}
+            <TourPackages />
 
             {/* Core Services - What we actually do */}
             <Services />
